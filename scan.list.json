@@ -1,0 +1,112 @@
+[
+    {
+        "name": "NetBird",
+        "description": "A netbird dashboard found in shodan, with registered IP in Iran",
+        "host": "213.176.19.158",
+        "port": 8081,
+        "service": "Netbird",
+        "country": "Iran",
+        "source": "shodan",
+        "tags": [ "shodan", "netbird", "vpn" ],
+        "scan": {"curl": {}, "ping": {}}
+    },
+    {
+        "name": "PiHole",
+        "description": "A PiHole server found in shodan, with registered IP in Iran, but domain pointing to `vds2781471.my-ihor.ru`",
+        "host": "95.81.113.186",
+        "port": 80,
+        "service": "Netbird",
+        "country": "Iran",
+        "source": "shodan",
+        "tags": [ "shodan", "PiHole"],
+        "scan": {"curl": {"url": "/admin"}, "ping": {}}
+    },
+    {
+        "name": "RDP",
+        "description": "A windows RDP Server found in shodan, with registered IP in Iran",
+        "host": "213.176.79.87",
+        "port": 3389,
+        "service": "RDP",
+        "country": "Iran",
+        "source": "shodan",
+        "tags": [ "shodan", "windows", "RDP" ],
+        "scan": {"rdp": {}, "ping": {}, "traceroute": {}}
+    },
+    {
+        "name": "University of Tehran",
+        "description": "University of Tehran's Website domain found from `domaintyper` Top 10 .ir domains",
+        "host": "ut.ac.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "domaintyper",
+        "tags": [ "web", "education" ],
+        "scan": {"ping": {}, "dns": {}, "web": {}}
+    },
+    {
+        "name": "National Informatics Center - Iran",
+        "description": "National Informatics Center of Iran Website",
+        "host": "nic.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "-",
+        "tags": [ "govt", "web" ],
+        "scan": {"ping": {}, "web": {}, "dns": {}}
+    },
+    {
+        "name": "Iran Government Official Website",
+        "description": "National Informatics Center of Iran Website",
+        "host": "irangov.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "-",
+        "tags": [ "govt", "web" ],
+        "scan": {"ping": {}, "web": {}, "dns": {}}
+    },
+    {
+        "name": "National Informatics Center - Greenland",
+        "description": "National Informatics Center of Greenland Website",
+        "host": "nic.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "-",
+        "tags": [ "govt", "web" ],
+        "scan": {"ping": {}, "web": {}, "dns": {}}
+    },
+    {
+        "name": "Government Genetic - Greenland",
+        "description": "National Informatics Center of Greenland Website",
+        "host": "govgen.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "-",
+        "tags": [ "govt", "web" ],
+        "scan": {"ping": {}, "web": {}, "dns": {}}
+    },
+    {
+        "name": "Naalakkersuisut - Greenland",
+        "description": "Self governing affairs of Greenland Website",
+        "host": "naalakkersuisut.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "-",
+        "tags": [ "govt", "web" ],
+        "scan": {"ping": {}, "web": {}, "dns": {}}
+    },
+    {
+        "name": "Government Minerals - Greenland",
+        "description": "National Informatics Center of Greenland Website",
+        "host": "govmin.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "-",
+        "tags": [ "govt", "web" ],
+        "scan": {"ping": {}, "web": {}, "dns": {}}
+    }
+]
