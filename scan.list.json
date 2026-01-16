@@ -7,8 +7,15 @@
         "service": "Netbird",
         "country": "Iran",
         "source": "shodan",
-        "tags": [ "shodan", "netbird", "vpn" ],
-        "scan": {"curl": {}, "ping": {}}
+        "tags": [
+            "shodan",
+            "netbird",
+            "vpn"
+        ],
+        "scan": {
+            "curl": {},
+            "ping": {}
+        }
     },
     {
         "name": "PiHole",
@@ -18,8 +25,16 @@
         "service": "Netbird",
         "country": "Iran",
         "source": "shodan",
-        "tags": [ "shodan", "PiHole"],
-        "scan": {"curl": {"url": "/admin"}, "ping": {}}
+        "tags": [
+            "shodan",
+            "PiHole"
+        ],
+        "scan": {
+            "curl": {
+                "url": "/admin"
+            },
+            "ping": {}
+        }
     },
     {
         "name": "RDP",
@@ -29,8 +44,16 @@
         "service": "RDP",
         "country": "Iran",
         "source": "shodan",
-        "tags": [ "shodan", "windows", "RDP" ],
-        "scan": {"rdp": {}, "ping": {}, "traceroute": {}}
+        "tags": [
+            "shodan",
+            "windows",
+            "RDP"
+        ],
+        "scan": {
+            "rdp": {},
+            "ping": {},
+            "traceroute": {}
+        }
     },
     {
         "name": "University of Tehran",
@@ -40,8 +63,15 @@
         "service": "web",
         "country": "Iran",
         "source": "domaintyper",
-        "tags": [ "web", "education" ],
-        "scan": {"ping": {}, "dns": {}, "web": {}}
+        "tags": [
+            "web",
+            "education"
+        ],
+        "scan": {
+            "ping": {},
+            "dns": {},
+            "web": {}
+        }
     },
     {
         "name": "National Informatics Center - Iran",
@@ -51,8 +81,15 @@
         "service": "web",
         "country": "Iran",
         "source": "-",
-        "tags": [ "govt", "web" ],
-        "scan": {"ping": {}, "web": {}, "dns": {}}
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "ping": {},
+            "web": {},
+            "dns": {}
+        }
     },
     {
         "name": "Iran Government Official Website",
@@ -62,8 +99,141 @@
         "service": "web",
         "country": "Iran",
         "source": "-",
-        "tags": [ "govt", "web" ],
-        "scan": {"ping": {}, "web": {}, "dns": {}}
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "ping": {},
+            "web": {},
+            "dns": {}
+        }
+    },
+    {
+        "name": "dailytec.ir",
+        "description": "Dailytec in Iran",
+        "host": "dailytec.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "domaina.ir",
+        "description": "Domaina in Iran",
+        "host": "domaina.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "caa.gov.ir",
+        "description": "Caa Gov - Government service in Iran",
+        "host": "caa.gov.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "farhang.gov.ir",
+        "description": "Farhang Gov - Government service in Iran",
+        "host": "farhang.gov.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "sahebnews.ir",
+        "description": "Sahebnews - News and media outlet in Iran",
+        "host": "sahebnews.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "media",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "salecars.ir",
+        "description": "Salecars in Iran",
+        "host": "salecars.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "domaina.ir",
+        "description": "Domaina in Iran",
+        "host": "domaina.ir",
+        "port": null,
+        "service": "web",
+        "country": "Iran",
+        "source": "tranco",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
     },
     {
         "name": "National Informatics Center - Greenland",
@@ -73,8 +243,15 @@
         "service": "web",
         "country": "Greenland",
         "source": "-",
-        "tags": [ "govt", "web" ],
-        "scan": {"ping": {}, "web": {}, "dns": {}}
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "ping": {},
+            "web": {},
+            "dns": {}
+        }
     },
     {
         "name": "Government Genetic - Greenland",
@@ -84,8 +261,15 @@
         "service": "web",
         "country": "Greenland",
         "source": "-",
-        "tags": [ "govt", "web" ],
-        "scan": {"ping": {}, "web": {}, "dns": {}}
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "ping": {},
+            "web": {},
+            "dns": {}
+        }
     },
     {
         "name": "Naalakkersuisut - Greenland",
@@ -95,8 +279,213 @@
         "service": "web",
         "country": "Greenland",
         "source": "-",
-        "tags": [ "govt", "web" ],
-        "scan": {"ping": {}, "web": {}, "dns": {}}
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "ping": {},
+            "web": {},
+            "dns": {}
+        }
+    },
+    {
+        "name": "aasiaat.gl",
+        "description": "Aasiaat in Greenland",
+        "host": "aasiaat.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "commoncrawl",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "2024.aul.gl",
+        "description": "2024 Aul in Greenland",
+        "host": "2024.aul.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "commoncrawl",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "airgreenland.gl",
+        "description": "Airgreenland in Greenland",
+        "host": "airgreenland.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "commoncrawl",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "arosbusinessacademy.gl",
+        "description": "Arosbusinessacademy - Educational institution in Greenland",
+        "host": "arosbusinessacademy.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "commoncrawl",
+        "tags": [
+            "education",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "banken.gl",
+        "description": "Banken - Banking and financial services in Greenland",
+        "host": "banken.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "crtsh",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "nic.gl",
+        "description": "Nic - Domain registry service in Greenland",
+        "host": "nic.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "tranco",
+        "tags": [
+            "registry",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "post.elmyndighed.gl",
+        "description": "Post Elmyndighed in Greenland",
+        "host": "post.elmyndighed.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "crtsh",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "post.nuuktv.gl",
+        "description": "Post Nuuktv - News and media outlet in Greenland",
+        "host": "post.nuuktv.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "crtsh",
+        "tags": [
+            "media",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "remote.os-electronic.gl",
+        "description": "Remote Os-Electronic - Domain registry service in Greenland",
+        "host": "remote.os-electronic.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "crtsh",
+        "tags": [
+            "registry",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "webmail.avaatu.gl",
+        "description": "Webmail service for Avaatu in Greenland",
+        "host": "webmail.avaatu.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "commoncrawl",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "mail.ggg.gl",
+        "description": "Mail server for Ggg in Greenland",
+        "host": "mail.ggg.gl",
+        "port": null,
+        "service": "web",
+        "country": "Greenland",
+        "source": "crtsh",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
     },
     {
         "name": "Government Minerals - Greenland",
@@ -106,7 +495,662 @@
         "service": "web",
         "country": "Greenland",
         "source": "-",
-        "tags": [ "govt", "web" ],
-        "scan": {"ping": {}, "web": {}, "dns": {}}
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "ping": {},
+            "web": {},
+            "dns": {}
+        }
+    },
+    {
+        "name": "01800telefono.com.mx",
+        "description": "01800Telefonom - Telecommunications provider in Mexico",
+        "host": "01800telefono.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "commoncrawl",
+        "tags": [
+            "telecom",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "acateno.gob.mx",
+        "description": "Acateno - Government service in Mexico",
+        "host": "acateno.gob.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "commoncrawl",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "1sitiowebmedia.com.mx",
+        "description": "1Sitiowebmediam - News and media outlet in Mexico",
+        "host": "1sitiowebmedia.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "commoncrawl",
+        "tags": [
+            "media",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "autocredit-santander.com.mx",
+        "description": "Autocredit-Santanderm - Banking and financial services in Mexico",
+        "host": "autocredit-santander.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "academiabellezalatina.edu.mx",
+        "description": "Academiabellezalatina - Educational institution in Mexico",
+        "host": "academiabellezalatina.edu.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "commoncrawl",
+        "tags": [
+            "education",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "bbvaconsumerfinance.mx",
+        "description": "Bbvaconsumerfinance - Banking and financial services in Mexico",
+        "host": "bbvaconsumerfinance.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "jchats.mx",
+        "description": "Jchats in Mexico",
+        "host": "jchats.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "nubank.com.mx",
+        "description": "Nubankm - Banking and financial services in Mexico",
+        "host": "nubank.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "megacableinternet.mx",
+        "description": "Megacableinternet - Telecommunications provider in Mexico",
+        "host": "megacableinternet.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "telecom",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "jmaschih.gob.mx",
+        "description": "Jmaschih - Government service in Mexico",
+        "host": "jmaschih.gob.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "declaranet.ahome.gob.mx",
+        "description": "Declaranet Ahome - Government service in Mexico",
+        "host": "declaranet.ahome.gob.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "commoncrawl",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "revistaciencia.amc.edu.mx",
+        "description": "Revistaciencia Amc - Educational institution in Mexico",
+        "host": "revistaciencia.amc.edu.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "commoncrawl",
+        "tags": [
+            "education",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "pisa.com.mx",
+        "description": "Pisam in Mexico",
+        "host": "pisa.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "scotiabank.com.mx",
+        "description": "Scotiabankm - Banking and financial services in Mexico",
+        "host": "scotiabank.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "talamobile.mx",
+        "description": "Talamobile - Telecommunications provider in Mexico",
+        "host": "talamobile.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "telecom",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "unic.mx",
+        "description": "Unic - Domain registry service in Mexico",
+        "host": "unic.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "registry",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "whois.mx",
+        "description": "Whois - Domain registry service in Mexico",
+        "host": "whois.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "registry",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "accesosalud.com.mx",
+        "description": "Accesosaludm - Healthcare services in Mexico",
+        "host": "accesosalud.com.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "health",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "visitax.gob.mx",
+        "description": "Visitax - Government service in Mexico",
+        "host": "visitax.gob.mx",
+        "port": null,
+        "service": "web",
+        "country": "Mexico",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "360lab.com.co",
+        "description": "360Lab in Colombia",
+        "host": "360lab.com.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "commoncrawl",
+        "tags": [
+            "general",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "acem.edu.co",
+        "description": "Acem - Educational institution in Colombia",
+        "host": "acem.edu.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "commoncrawl",
+        "tags": [
+            "education",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "audionic.co",
+        "description": "Audionic - Domain registry service in Colombia",
+        "host": "audionic.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "registry",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "bancodebogota.com.co",
+        "description": "Bancodebogota - Banking and financial services in Colombia",
+        "host": "bancodebogota.com.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "acreditacionensalud.org.co",
+        "description": "Acreditacionensalud - Banking and financial services in Colombia",
+        "host": "acreditacionensalud.org.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "commoncrawl",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "asw.edu.co",
+        "description": "Asw - Educational institution in Colombia",
+        "host": "asw.edu.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "education",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "citasclinicapalermo.com.co",
+        "description": "Citasclinicapalermo - Healthcare services in Colombia",
+        "host": "citasclinicapalermo.com.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "health",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "betvirtual.co",
+        "description": "Betvirtual - News and media outlet in Colombia",
+        "host": "betvirtual.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "media",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "correo.uao.edu.co",
+        "description": "Correo Uao - Educational institution in Colombia",
+        "host": "correo.uao.edu.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "crtsh",
+        "tags": [
+            "education",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "credityou.co",
+        "description": "Credityou - Banking and financial services in Colombia",
+        "host": "credityou.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "finance",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "mintic.gov.co",
+        "description": "Mintic - Government service in Colombia",
+        "host": "mintic.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "minciencias.gov.co",
+        "description": "Minciencias - Government service in Colombia",
+        "host": "minciencias.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "epa.gov.co",
+        "description": "Epa - Government service in Colombia",
+        "host": "epa.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "redam.gov.co",
+        "description": "Redam - Government service in Colombia",
+        "host": "redam.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "prosperidadsocial.gov.co",
+        "description": "Prosperidadsocial - Government service in Colombia",
+        "host": "prosperidadsocial.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "pensionescundinamarca.gov.co",
+        "description": "Pensionescundinamarca - Government service in Colombia",
+        "host": "pensionescundinamarca.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "tranco",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
+    },
+    {
+        "name": "abejorral-antioquia.gov.co",
+        "description": "Abejorral-Antioquia - Government service in Colombia",
+        "host": "abejorral-antioquia.gov.co",
+        "port": null,
+        "service": "web",
+        "country": "Colombia",
+        "source": "commoncrawl",
+        "tags": [
+            "govt",
+            "web"
+        ],
+        "scan": {
+            "dns": {},
+            "ping": {},
+            "web": {}
+        }
     }
 ]
